@@ -49,6 +49,8 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%; /*won't try to expand outside of its box, can't be bigger than parent*/
+
 }
 
 html, body {
@@ -200,9 +202,41 @@ footer nav a {
 
 
 /* About */
-
-.intro-text {
+.about-intro{
     border-bottom:dashed black thin;
-    padding-bottom:3%;
     margin-bottom:3%;
+}
+.intro-text {
+
+    margin:0 3% 3% 3%;
+}
+
+.workflow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.strategy {
+    border-bottom: 1px dashed black;
+    width:45%;
+    margin-bottom:5%;
+}
+.strategy img {
+    padding-bottom:3%;
+}
+.strategy p {
+    padding-bottom:3%;
+}
+.strategy button {
+    margin-bottom:3%;
+    background-color: white;
+    border-radius:7px;
+    border:2px solid black;
+    text-decoration: none;
+    padding:1.5% 3%;
+}
+
+.ending{
+    margin:0 3% 3% 3%;
 }
