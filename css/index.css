@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+/* housekeeping */
 * {
     box-sizing: border-box;
     max-width: 100%; /*won't try to expand outside of its box, can't be bigger than parent*/
@@ -90,7 +91,7 @@ p {
     text-decoration:none;
     color:black;
 }
-
+/* Top Content */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -109,6 +110,7 @@ p {
     margin-bottom:2%;
 }
 
+/* Middle Content */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -166,7 +168,7 @@ p {
 .middle-content .boxes .box:last-child {
     background: dodgerblue;
 }
-
+/* Bottom Content */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -180,7 +182,7 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/* Footer */
 footer {
     width: 100%;
     background: black;
@@ -201,7 +203,9 @@ footer nav a {
 }
 
 
-/* About */
+/* Second WebPage - About */
+
+/* Top Section */
 .about-intro{
     border-bottom:dashed black thin;
     margin-bottom:3%;
@@ -210,13 +214,12 @@ footer nav a {
 
     margin:0 3% 3% 3%;
 }
-
+/* Workflow */
 .workflow {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
 }
-
 .strategy {
     border-bottom: 1px dashed black;
     width:45%;
@@ -236,7 +239,7 @@ footer nav a {
     text-decoration: none;
     padding:1.5% 3%;
 }
-
+/* last paragraph */
 .ending{
     margin:0 3% 3% 3%;
 }
