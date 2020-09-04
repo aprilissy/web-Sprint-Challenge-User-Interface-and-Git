@@ -197,3 +197,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* About */
+
+.intro-text {
+    border-bottom:dashed black thin;
+    padding-bottom:3%;
+    margin-bottom:3%;
+}
